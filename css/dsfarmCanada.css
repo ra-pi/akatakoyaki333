@@ -120,7 +120,7 @@ main {
 }
 
 .slide-btn {
-  opacity: 0.5;
+  opacity: 1;
 }
 .slide-btn.clicked {
     transform: scale(0.95);
@@ -230,3 +230,4 @@ main {
     padding: 8px 12px;
   }
 }
+
