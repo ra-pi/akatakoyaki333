@@ -75,6 +75,72 @@ body{
 .contact-right img{
   width: 500px;
 }
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+  padding-top: 100px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.modal-content p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+#modalOkButton {
+  background-color: #1bd8df;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#modalOkButton:hover {
+  background-color: #29e6ff;
+}
+
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* -------------------- LARGE DESKTOP (1440px and up) -------------------- */
 @media (min-width: 1440px) {
@@ -152,5 +218,4 @@ body{
   .contact-right {
     display: none;
   }
-
 }
