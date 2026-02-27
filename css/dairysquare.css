@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* ROOT SCALE */
-html {
-  font-size: 16px;
+  font-family: 'Poppins', sans-serif; /* consistent font */
 }
 
 body {
@@ -159,7 +155,8 @@ main {
     font-size: 15px;
   }
   .info-title {
-  font-size: 45px;}
+  font-size: 45px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -178,9 +175,9 @@ main {
   .info-text .info-heading {
     font-size: 20px;
   }
+  }
 
   .info-text .info-description {
     font-size: 14px;
   }
 }
-
