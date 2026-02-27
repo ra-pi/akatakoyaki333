@@ -120,6 +120,9 @@ body {
   .info-container {
     gap: 40px;
   }
+  body {
+    background-attachment: scroll; 
+  }
 }
 
 /* Mobile */
@@ -137,6 +140,9 @@ body {
 
   .info-text {
     text-align: center;
+  }
+  body {
+    background-attachment: scroll; 
   }
 
 }
@@ -156,5 +162,9 @@ body {
   .info-description {
     font-size: 15px;
   }
+  body {
+    background-attachment: scroll;
+  }
 }
+
 
