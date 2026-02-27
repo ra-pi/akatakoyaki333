@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #1b1b1b);
+  background: #ffffff;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 20px;
-  color: #fff9a2;
+  color: #530000;
 }
 
 .info-title::after {
@@ -37,7 +37,7 @@ main {
   display: block;
   width: 100px;
   height: 4px;
-  background-color: #cf0000;
+  background-color: #380000;
   margin: 15px auto 40px auto;
   border-radius: 2px;
 }
@@ -48,7 +48,7 @@ main {
   max-width: 900px;
   margin: 0 auto 40px auto;
   text-align: justify;
-  color: #fff9a2;
+  color: #000000;
 }
 
 /* -------------------- IMAGE + TEXT CONTAINER -------------------- */
@@ -79,13 +79,13 @@ main {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #4d0000;
 }
 
 .info-text .info-description {
   font-size: 16px;
   line-height: 1.6;
-  color: #fff9a2;
+  color: #000000;
 }
 
 .mission-vision {
@@ -97,7 +97,7 @@ main {
   backdrop-filter: blur(14px);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
   font-size: clamp(0.95rem, 1.1vw, 1.05rem);
-  color: #fff9a2;
+  color: #000000;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -155,8 +155,7 @@ main {
     font-size: 15px;
   }
   .info-title {
-  font-size: 45px;
-  }
+  font-size: 45px;}
 }
 
 @media (max-width: 768px) {
@@ -174,7 +173,6 @@ main {
 @media (max-width: 480px) {
   .info-text .info-heading {
     font-size: 20px;
-  }
   }
 
   .info-text .info-description {
